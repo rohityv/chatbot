@@ -1,0 +1,67 @@
+/* common css  */
+.top-space{padding: 50px 0;}
+.section-padding-bottom{padding-bottom: 100px;}
+.section-padding-top{padding-top: 100px;}
+.animation{opacity: 0; animation: fadeIn 2s; animation-fill-mode: forwards;}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* header */
+
+.chatbot-header{background-image: linear-gradient(to right ,rgba(249 117 20 /.9), rgba(249 117 20/1)); animation-delay: 1s;}
+.header-content{animation-delay: 3s;}
+.logo{animation-delay: 4s; cursor: pointer; display: inline-block;box-shadow: 0px 0px 8px 0px #f9791a;
+     background: rgb(249 117 20); padding: 15px 20px; border-radius: 50%; font-size: 30px; z-index: 1; top: -50px;}
+
+
+
+/* popup  */
+.popup-container{border: 2px solid #fff; display: none; background: rgb(249 117 20); padding: 40px 12px;}
+.popup-container a{ color: #fff;}
+.times{right:-10px; top: -10px; }
+.times .far{color: #fff; font-weight: 500; font-size: 28px; cursor: pointer;}
+.times .far::before{background: rgb(249 117 20); border-radius: 50%;}
+
+/* section 1  */
+.faq-card{animation-delay: 5s; border-radius: 14px; box-shadow:0px 0px 6px 0px rgb(242 211 211);
+    border: 1px solid #ddd; padding: 30px 16px 16px 16px; margin-top: -45px; background: #fff; z-index: 0;}
+.faq-card-heading{animation-delay: 6s;}
+.faq-list{animation-delay: 7s; padding-left: 0;}
+.li-1{animation-delay: 8s;}
+.li-2{animation-delay: 9s;}
+.li-3{animation-delay: 10s;}
+.li-4{animation-delay: 11s;}
+.card-btn{animation-delay: 12s; outline: none; text-align: center; border: 1px solid #ddd; background: #fff; padding:12px 24px; border-radius: 30px; font-weight:600;
+    box-shadow: 0px 3px 5px 0px rgb(230 230 230);}
+
+.faq-list li{margin-bottom: 12px; border: 1px solid #ddd; list-style: none; padding: 12px 3px; border-radius: 8px; box-shadow: 0px 0px 5px 0px rgb(252 226 226);}
+.faq-list li::before{content: '⨀'; color: red; background-color: rgba(249 117 20/.2); margin-right: 13px; padding: 4px 6px; font-size: 9px; border-radius: 50%;}
+.faq-list li:last-child{margin-bottom: 0;}
+
+.li1-text{display: none;}
+.li2-text{display: none;}
+.li3-text{display: none;}
+.li4-text{display: none;}
+
+.card-Q{color: rgb(249 117 20);}
+.card-Q::before{ content: "?"; background-color: rgba(249 117 20/.2); border-radius: 50%; padding: 5px 15px; font-size: 20px;}
+
+
+/* Media Query  */
+
+
+@media only screen and (max-width:1199px){
+    
+}
+@media only screen and (max-width:991px){
+    
+}
+@media only screen and (max-width:767px){
+    /* .section-padding-bottom{padding-bottom: 40px;} */
+}
+@media only screen and (max-width:575px){
+    .faq-list li{font-size: 13px;}
+    .faq-card-heading {font-size: 21px;}
+}
