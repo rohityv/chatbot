@@ -36,8 +36,8 @@
 .card-btn{animation-delay: 12s; outline: none; text-align: center; border: 1px solid #ddd; background: #fff; padding:12px 24px; border-radius: 30px; font-weight:600;
     box-shadow: 0px 3px 5px 0px rgb(230 230 230);}
 
-.faq-list li{display: flex; align-items: center; margin-bottom: 12px; border: 1px solid #ddd; list-style: none; padding: 12px 3px; border-radius: 8px; box-shadow: 0px 0px 5px 0px rgb(252 226 226);}
-.faq-list li::before{font-size: 15px; content: '\2022'; padding: 0 8px; color: red; background-color: rgba(249 117 20/.2); margin-right: 13px; border-radius: 50%;}
+.faq-list li{margin-bottom: 12px; border: 1px solid #ddd; list-style: none; padding: 12px 3px; border-radius: 8px; box-shadow: 0px 0px 5px 0px rgb(252 226 226);}
+.faq-list li::before{content: '⨀'; color: red; background-color: rgba(249 117 20/.2); margin-right: 13px; padding: 4px 6px; font-size: 9px; border-radius: 50%;}
 .faq-list li:last-child{margin-bottom: 0;}
 
 .li1-text{display: none;}
